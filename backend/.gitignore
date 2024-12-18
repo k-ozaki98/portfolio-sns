@@ -1,0 +1,10 @@
+touch .gitignore
+nano .gitignore
+
+/vendor
+/node_modules
+/storage/*.key
+/storage/framework/*
+/storage/logs/*
+.env
+.phpunit.result.cache
