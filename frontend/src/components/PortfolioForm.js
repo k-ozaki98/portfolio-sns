@@ -39,7 +39,6 @@ export default function PortfolioForm({ onSubmit, onClose }) {
     e.preventDefault();
     setError('');
     setIsSubmitting(true);
-    onSubmit(formData);
 
     try {
       const response = await onSubmit(formData);
